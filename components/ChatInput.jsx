@@ -13,14 +13,6 @@ export default function ChatInput({ onSend, loading }) {
 
   return (
     <div className="flex items-center gap-3 p-4 border-t bg-white">
-      {/* Mic icon (UI only for now) */}
-      <button
-        className="h-12 w-12 rounded-full bg-pink-500 text-white flex items-center justify-center"
-        disabled
-      >
-        🎤
-      </button>
-
       {/* Text input */}
       <input
         type="text"
